@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Chat from "./components/Chat";
-import "./app.css";
+import "./App.css";
 import SecondLoader from "./components/SecondLoader";
 
 const App = () => {
