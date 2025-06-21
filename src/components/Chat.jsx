@@ -107,7 +107,7 @@ export default function Chat() {
         ))}
       </main>
 
-      <footer className="flex p-4 gap-2 bg-black border-t border-gray-700">
+      <footer className="fixed w-full bottom-0 left-0 flex p-4 gap-2 bg-black border-t border-gray-700">
         <input
           value={input}
           onChange={e => setInput(e.target.value)}
